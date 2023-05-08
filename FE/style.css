@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+body{
+    background-color:#131722;
+    color: #fff;
+    font-family: 'Almarai', sans-serif;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+li:nth-child(odd){
+    background-color: #646464;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #efe4e4;
+}
